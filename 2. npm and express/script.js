@@ -1,4 +1,4 @@
-//isme express install and use kiya and haa routing ke concept padhes
+//isme express install and use kiya and haa routing ke concept padhe
 const express = require('express')
 const app = express()
 
