@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Our Server is Shy Today | Fun 404 Error Page</title>
+  <meta name="description" content="A playful and aesthetic 404 error page with a dark gradient, minimal branding, and a fun message — 'Our server is shy today.' Perfect for a modern web project.">
+  <meta name="author" content="Your Name">
+  <meta name="theme-color" content="#1db27a">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Stylesheets/error.css">
+</head>
+<body>
+  <main class="wrap" role="main" aria-describedby="desc">
+    <div class="brand" aria-label="RideCentric">
+      <span class="brand__logo" aria-hidden="true">JD</span>
+    </div>
+
+    <h1>Our server is shy today</h1>
+
+    <p id="desc" class="lead">
+      The page you followed is hiding right now—maybe moved, maybe renamed.
+      Try heading back, or check the URL for typos.
+      <%= error %>
+    </p>
+
+    <a class="cta" href="/" aria-label="Go back to homepage">
+      Go Home <span aria-hidden="true">↗</span>
+    </a>
+
+    <p class="minor">
+      <span class="visually-hidden">Helpful links:</span>
+      Or <a href="mailto:support@example.com">contact support</a> if you keep landing here.
+    </p>
+  </main>
+</body>
+</html>
